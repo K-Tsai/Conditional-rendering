@@ -18,9 +18,11 @@ const sections = [
 
 class App extends React.Component {
 	render() {
-		return <div>
-			<Accordion />
-		</div>
+		return (
+      <div>
+			  <Accordion sections = {sections} />
+		  </div>
+    )
 	}
 }
 
